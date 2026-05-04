@@ -1,0 +1,3 @@
+    Tarefas serão atribuidas conforme a disponibilidade e entendimento da pessoa sobre determinado assunto, tal trabalho tem como normas padrões: PascalCase para todas nomenclaturas, :root para estilos gerais e definição de cores padrões, Script+(Nome do HTML).js para a assimilação lógica, Assets para o armazenamento de imagens.
+    
+    1°: A divisão inicial de tarefas é: Samuel(Pesquisa CRUD), Natan e Daniel(Página de Login), Roberto(Gerenciamento JS da tela de login), Lucas(Não definido pois houve falta)
