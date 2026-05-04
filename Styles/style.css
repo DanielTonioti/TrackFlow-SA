@@ -12,8 +12,8 @@
 .TituloPagLogin{
     color: var(--cor-letra);
     background-color: var(--cor-fundo-escuro);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 3rem;
+    font-family: League system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 4rem;
     width: 59.9%;
     height: 100%;
 }
@@ -45,4 +45,8 @@ width: 120px;
 }
 .centralizer{
     align-content: center;
+}
+.ImgLoginPage{
+    width: auto;
+    height: 300px;
 }
