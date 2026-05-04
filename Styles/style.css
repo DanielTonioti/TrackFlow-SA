@@ -55,6 +55,15 @@ margin: 24px;
 padding: 32px;
 width: 480px;
 border-radius: 48px;
+display: flex;
+
+}
+.buttomtext{
+    position: relative;
+    left: 48px;
+    top: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--cor-letra)
 }
 .centralizer{
     background-color: var(--cor-fundo-escuro);
@@ -68,3 +77,4 @@ border-radius: 48px;
     padding: 8px;
     border-radius: 12px;
 }
+
