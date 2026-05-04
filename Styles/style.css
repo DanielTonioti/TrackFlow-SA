@@ -23,3 +23,10 @@ display: flex;
 .green{
     background-color: #0e8a23;
 }
+.buttom{
+padding: 32px;
+width: 120px;
+}
+.centralizer{
+    align-content: center;
+}
