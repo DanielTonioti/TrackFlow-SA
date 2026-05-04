@@ -1,9 +1,13 @@
 :root{
-    --cor-fundo-claro: #526d82;
-    --cor-fundo-escuro: #72899b;
+    --cor-fundo-claro: #72899b;
+    --cor-fundo-escuro: #526d82;
     --cor-separacao:#c9cace;
     --cor-letra: white;
     --cor-verde: #c1ff72;
+    --cor-botao1-inicial: #afbac2;
+    --cor-botao2-inicial: #0759d4;
+    --cor-botao3-inicial: #0e8a23;
+
 }
 .TituloPagLogin{
     color: var(--cor-letra);
@@ -21,8 +25,24 @@
     width: 0.2%;
     height: 100%;
 }
+.gray{
+    background-color: var(--cor-botao1-inicial);
+}
+.blue{
+    background-color: var(--cor-botao2-inicial);
+}
+.green{
+    background-color: var(--cor-botao3-inicial);
+}
 .AreaLogin{
     width: 39.9%;
     height: 100%;
     background-color: var(--cor-fundo-claro);
+}
+.buttom{
+padding: 32px;
+width: 120px;
+}
+.centralizer{
+    align-content: center;
 }
