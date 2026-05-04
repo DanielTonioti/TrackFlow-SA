@@ -1,3 +1,3 @@
-let Contas = ((1, 3, 2), (4, 5, 6), (7, 8, 9) )
+let Contas = (("Marlon", "123"), ("Susane", "1234"), ("Frederico", "12345"))
 
-console.log(Contas[0][3]);
+console.log(Contas[0][1]);
