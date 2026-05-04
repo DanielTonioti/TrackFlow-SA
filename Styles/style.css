@@ -1,10 +1,16 @@
 body{
-background-color: #526d82;
+background-color: 526d82;
 }
 
 
-.flex{
+.Flex{
 display: flex;
 }
 
+.AreaLogin{
+   background-color: #72899b; 
+}
 
+.TituloPagLogin{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
