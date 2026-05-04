@@ -1,16 +1,17 @@
-body{
-background-color: 526d82;
+:root{
+    --cor-fundo-claro: #526d82;
+    --cor-fundo-escuro: #72899b;
+    --cor-letra: white;
 }
-
-
-.Flex{
-display: flex;
-}
-
-.AreaLogin{
-   background-color: #72899b; 
-}
-
 .TituloPagLogin{
+    background-color: var(--cor-fundo-escuro);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    width: 60%;
+    height: 100%;
+}
+.AreaLogin{
+    width: 40%;
+    height: 100%;
+    background-color: var(--cor-fundo-claro);
 }
