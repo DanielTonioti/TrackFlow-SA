@@ -14,3 +14,12 @@ display: flex;
 .TituloPagLogin{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.gray{
+    background-color: #afbac2;
+}
+.blue{
+    background-color: #0759d4;
+}
+.green{
+    background-color: #0e8a23;
+}
