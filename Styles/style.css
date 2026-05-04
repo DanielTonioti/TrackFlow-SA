@@ -1,7 +1,7 @@
-:root{
+:root {
     --cor-fundo-claro: #72899b;
     --cor-fundo-escuro: #526d82;
-    --cor-separacao:#c9cace;
+    --cor-separacao: #c9cace;
     --cor-letra: white;
     --cor-verde: #c1ff72;
     --cor-botao1-inicial: #afbac2;
@@ -9,7 +9,8 @@
     --cor-botao3-inicial: #0e8a23;
 
 }
-.TituloPagLogin{
+
+.TituloPagLogin {
     color: var(--cor-letra);
     background-color: var(--cor-fundo-escuro);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,43 +18,64 @@
     width: 59.9%;
     height: 100%;
 }
-.LimeGreen{
+
+.LimeGreen {
     color: var(--cor-verde);
 }
-.separacao{
+
+.separacao {
     background-color: var(--cor-separacao);
     width: 0.2%;
     height: 100%;
 }
-.gray{
+
+.gray {
     background-color: var(--cor-botao1-inicial);
 }
-.blue{
+
+.blue {
     background-color: var(--cor-botao2-inicial);
 }
-.green{
+
+.green {
     background-color: var(--cor-botao3-inicial);
 }
-.AreaLogin{
+
+.AreaLogin {
     width: 39.9%;
     height: 100%;
     background-color: var(--cor-fundo-claro);
 }
 
 .CentroTela {
-position:absolute;
-top:35%;
-left:50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--cor-fundo-escuro)
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor-fundo-escuro);
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
 }
+
+.CentroText {
+    align-content: center;
+    justify-content: center;
+    color: var(--cor-letra)
+}
+
 .FundoTela {
-    blackground-color:var(--cor-fundo-escuro);
+    blackground-color: var(--cor-fundo-escuro);
 }
-.buttom{
-padding: 32px;
-width: 120px;
+
+.buttom {
+    padding: 32px;
+    width: 120px;
 }
-.centralizer{
+
+.centralizer {
     align-content: center;
 }
