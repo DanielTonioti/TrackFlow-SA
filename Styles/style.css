@@ -7,45 +7,35 @@
     --cor-botao1-inicial: #afbac2;
     --cor-botao2-inicial: #0759d4;
     --cor-botao3-inicial: #0e8a23;
-
+    --Fonte-Padrão: League system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.TituloPagLogin {
+.c-TituloPagLogin {
     color: var(--cor-letra);
     background-color: var(--cor-fundo-escuro);
-    font-family: League system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: var(--Fonte-Padrão);
     font-size: 4rem;
     width: 59.9%;
     height: 100%;
 }
 
-.LimeGreen {
-    color: var(--cor-verde);
-}
-
-.separacao {
+.c-Separacao {
     background-color: var(--cor-separacao);
     width: 0.2%;
     height: 100%;
 }
 
-.gray {
-    background-color: var(--cor-botao1-inicial);
-}
-
-.blue {
-    background-color: var(--cor-botao2-inicial);
-}
-
-.green {
-    background-color: var(--cor-botao3-inicial);
-}
-
-.AreaLogin {
+.c-AreaLogin {
     width: 39.9%;
     height: 100%;
     background-color: var(--cor-fundo-claro);
 }
+
+.TamanhoTituloSlogan {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
 
 .CentroTela {
     display: flex;
@@ -68,7 +58,7 @@
 }
 
 .FundoTela {
-    blackground-color: var(--cor-fundo-escuro);
+    background-color: var(--cor-fundo-escuro);
 }
 
 .buttom {
@@ -79,34 +69,40 @@
 .centralizer {
     align-content: center;
 }
+
 .FundoTela {
-    blackground-color:var(--cor-fundo-escuro);
+    background-color: var(--cor-fundo-escuro);
 }
-.buttom{
-margin: 24px;
-padding: 32px;
-width: 480px;
-border-radius: 48px;
-display: flex;
+
+.buttom {
+    margin: 24px;
+    padding: 32px;
+    width: 480px;
+    border-radius: 48px;
+    display: flex;
 
 }
-.buttomtext{
+
+.buttomtext {
     position: relative;
     left: 48px;
     top: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--cor-letra)
 }
-.centralizer{
+
+.centralizer {
     background-color: var(--cor-fundo-escuro);
     width: 100%;
     height: 100%;
 }
-.ImgLoginPage{
+
+.ImgLoginPage {
     width: auto;
     height: 300px;
 }
-.icon{
+
+.icon {
     width: 64px;
     height: 64px;
     background-color: var(--cor-letra);
@@ -114,3 +110,18 @@ display: flex;
     border-radius: 12px;
 }
 
+.gray {
+    background-color: var(--cor-botao1-inicial);
+}
+
+.blue {
+    background-color: var(--cor-botao2-inicial);
+}
+
+.green {
+    background-color: var(--cor-botao3-inicial);
+}
+
+.LimeGreen {
+    color: var(--cor-verde);
+}
