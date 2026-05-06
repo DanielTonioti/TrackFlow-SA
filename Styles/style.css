@@ -1,17 +1,17 @@
 :root {
     /*Cores de fundo*/
-    --cor-fundo-claro: #72899b;
-    --cor-fundo-escuro: #526d82;
-    --cor-separacao: #c9cace;
+    --cor-Azure-Claro-Fundo: #72899b;
+    --cor-Azure-Escuro-Fundo: #526d82;
+    --cor-Cinza-Claro: #c9cace;
     /*cor de letra*/
     --cor-letra: white;
     /*cores normais*/
-    --cor-verde: #c1ff72;
+    --cor-LimeGreen: #c1ff72;
     --cor-Azul-Real: #5271ff;
     /*cores de botões*/
-    --cor-botao1-inicial: #afbac2;
-    --cor-botao2-inicial: #0759d4;
-    --cor-botao3-inicial: #0e8a23;
+    --cor-Cinza-Claro-Botoes: #adadad;
+    --cor-Verde: #00bf63;
+    --cor-Vermelho: #ff5757;
     /*Fontes de texto*/
     --Fonte-Padrão: League system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --Fonte-Lucinda: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -24,14 +24,8 @@
 
 }
 
-.IndexCorPag {
-    background-color: var(--cor-fundo-claro);
-}
-
 /* Login */
 .c-LoginSloganPag {
-    color: var(--cor-letra);
-    background-color: var(--cor-fundo-escuro);
     font-family: var(--Fonte-Padrão);
     font-size: 4rem;
     width: 59.9%;
@@ -39,7 +33,6 @@
 }
 
 .c-LoginSeparacao {
-    background-color: var(--cor-separacao);
     width: 0.2%;
     height: 100%;
 }
@@ -47,7 +40,6 @@
 .c-LoginArea {
     width: 39.9%;
     height: 100%;
-    background-color: var(--cor-fundo-claro);
 }
 
 .LoginImg {
@@ -100,7 +92,6 @@
 }
 
 .centralizer {
-    background-color: var(--cor-fundo-escuro);
     width: 100%;
     height: 100%;
 }
@@ -129,36 +120,64 @@
     width: 200px;
     height: 50px;
 }
+
 .colorText {
     color: var(--cor-letra)
 }
+
 /*Universais*/
 .FundoTela {
     background-color: var(--cor-fundo-escuro);
 }
+
 /* Cores */
-.gray {
-    background-color: var(--cor-botao1-inicial);
-}
 
-.blue {
-    background-color: var(--cor-botao2-inicial);
-}
-
-.green {
-    background-color: var(--cor-botao3-inicial);
-}
-
-.LimeGreen {
-    color: var(--cor-verde);
-}
-
-.AzulReal {
-    background-color: var(--cor-Azul-Real);
-}
-.BackButtom{
+.BackButtom {
     position: relative;
     padding: 18px;
     font-family: var(--Fonte-Lucinda);
     top: 24px;
+}
+
+.CoresColor {
+    color: var(--cor-color);
+}
+
+.CoresBackground {
+    background-color: var(--cor-background);
+}
+/* Cores Color */
+[data-color="LimeGreen"] {
+    --cor-color: var(--cor-LimeGreen);
+}
+[data-color="White"] {
+    --cor-color: var(--cor-letra);
+}
+/* Cores Background */
+[data-background="AzulReal"] {
+    --cor-background: var(--cor-Azul-Real);
+}
+
+[data-background="AzureEscuroFundo"] {
+    --cor-background: var(--cor-Azure-Escuro-Fundo);
+}
+
+[data-background="AzureClaroFundo"] {
+    --cor-background: var(--cor-Azure-Claro-Fundo);
+}
+
+[data-background="CinzaClaroBotoes"] {
+    --cor-background: var(--cor-Cinza-Claro-Botoes);
+}
+
+[data-background="CinzaClaro"] {
+    --cor-background: var(--cor-Cinza-Claro);
+}
+
+[data-background="Verde"] {
+    --cor-background: var(--cor-Verde);
+}
+
+[data-background="Vermelho"] {
+    --cor-background: var(--cor-Vermelho);
 }
