@@ -118,9 +118,17 @@
     border:none;
     border-radius: 25px;
     cursor:pointer;
+    user-select: none;
+}
+.AdminTituloTexto {
+    margin:0;
+    text-align: center;
+    user-select: none;
 }
 .AdminTitulo {
+    margin:0px;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -129,20 +137,55 @@
     transform: translate(-50%, -50%);
     border-radius: 25px;
     width: 500px;
-    height: 50px;
+    height:50px;
+    user-select: none;
 }
 
-.colorText {
-    color: var(--cor-letra);
+.AdminAdicionar {
+    margin-top:150px;
 }
-
-/*Universais*/
-.Centralizar {
+.AdminTabela {
+    width: 500px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    user-select: none;
+    margin-bottom:0px;
+    gap:1px;
+}
+.CentralizarTabela {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
 }
+.AdminTabelaButton {
+   width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    user-select: none;
+        margin-bottom:0px;
+}
+.TabelaTexto {
+   font-size: 25px;
+}
+
+.BorderTabela {
+    border:2px solid rgb(0, 0, 0);
+}
+.flex {
+    display:flex;
+    width:496px;
+    margin-bottom:0px;
+}
+/*Universais*/
+
+
+
 
 /* Cores */
 .BackButtom{
