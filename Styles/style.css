@@ -255,6 +255,16 @@
     position: relative;
     top: 48px;
 }
+
+.AjustIcon-Logo{
+width: 150px;
+height: 80px;
+}
+
+.AjustIcon-Menu{
+width: 70px;
+height: 80px;
+}
 @font-face {
     font-family: "Pixel";
     src: url(../Fonts/LeagueSpartan-VariableFont_wght.ttf);
