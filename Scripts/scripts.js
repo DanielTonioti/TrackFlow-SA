@@ -3,10 +3,10 @@ let Cancel = 0;
 
 console.log(Contas[0][1]);
 
-document.getElementById("id001").addEventListener("submit", function (e){
+document.getElementById("form-login").addEventListener("submit", function (e){
 
-let usuario = document.getElementById("id002").value;
-let senha = document.getElementById("id003").value;
+let usuario = document.getElementById("UsuarioEmail").value;
+let senha = document.getElementById("UsuarioSenha").value;
 
 if (usuario == null)
 {
@@ -16,7 +16,10 @@ if (senha.length < 4)
 {
     cancel = 1;
 }
-
+if (cancel == 1)
+{
+alert("Dados Incorretos");
+}
 
 
 })
