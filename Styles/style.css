@@ -105,10 +105,6 @@
     align-content: center;
 }
 
-.FundoTela {
-    background-color: var(--cor-fundo-escuro);
-}
-
 .buttom {
     margin: 24px;
     padding: 32px;
