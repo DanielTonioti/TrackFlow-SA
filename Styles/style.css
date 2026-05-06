@@ -257,13 +257,14 @@
 }
 
 .AjustIcon-Logo{
-width: 150px;
-height: 80px;
+width: 160px;
+height: 160px;
 }
 
 .AjustIcon-Menu{
-width: 70px;
-height: 80px;
+width: 120px;
+height: 120px;
+margin: 20px;
 }
 @font-face {
     font-family: "Pixel";
