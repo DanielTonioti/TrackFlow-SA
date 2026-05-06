@@ -204,6 +204,9 @@
 .header{
     width: 100%;
     height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .class001{ /* Conserta posição do botão de voltar */
     position: relative;
