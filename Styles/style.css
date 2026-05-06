@@ -7,11 +7,24 @@
     --cor-botao1-inicial: #afbac2;
     --cor-botao2-inicial: #0759d4;
     --cor-botao3-inicial: #0e8a23;
+    --cor-Azul-Real: #5271ff;
     --Fonte-Padrão: League system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     --Fonte-Lucinda: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.c-TituloPagLogin {
+/* Index */
+.IndexTituloPag {
+    font-family: var(--Fonte-Lucinda);
+    font-size: 5rem;
+
+}
+
+.IndexCorPag {
+    background-color: var(--cor-fundo-claro);
+}
+
+/* Login */
+.c-LoginSloganPag {
     color: var(--cor-letra);
     background-color: var(--cor-fundo-escuro);
     font-family: var(--Fonte-Padrão);
@@ -20,29 +33,40 @@
     height: 100%;
 }
 
-.c-Separacao {
+.c-LoginSeparacao {
     background-color: var(--cor-separacao);
     width: 0.2%;
     height: 100%;
 }
 
-.c-AreaLogin {
+.c-LoginArea {
     width: 39.9%;
     height: 100%;
     background-color: var(--cor-fundo-claro);
 }
 
-.ImgLoginPage {
+.LoginImg {
     width: auto;
     height: 300px;
 }
 
-.TamanhoTituloSlogan {
+.LoginButton {
+    padding: 5px;
+    border: none;
+}
+
+.LoginTamanhoTituloSlogan {
     font-size: 4rem;
     font-weight: bold;
 }
 
+.LoginTamanhoTituloLogin {
+    margin-top: 10%;
+    font-size: 300%;
+    font-weight: bold;
+}
 
+/* Hub */
 .CentroTela {
     display: flex;
     justify-content: center;
@@ -89,7 +113,7 @@
 
 }
 
-.buttomtext {
+.HubButtom {
     position: relative;
     left: 48px;
     top: 12px;
@@ -103,17 +127,6 @@
     height: 100%;
 }
 
-.TituloPagInicial {
-    font-family: var(--Fonte-Lucinda);
-    font-size: 5rem;
-
-}
-
-
-.CorPagInicial {
-    background-color: var(--cor-fundo-claro);
-}
-
 
 .icon {
     width: 64px;
@@ -123,6 +136,7 @@
     border-radius: 12px;
 }
 
+/* Cores */
 .gray {
     background-color: var(--cor-botao1-inicial);
 }
@@ -137,4 +151,8 @@
 
 .LimeGreen {
     color: var(--cor-verde);
+}
+
+.AzulReal {
+    background-color: var(--cor-Azul-Real);
 }
