@@ -1,4 +1,9 @@
 let time = 120;
+/* let checker = localStorage.getItem(usuario, senha);
+if (checker !== senha){
+window.location.href = "../public/login.html";
+} */
+
 document.getElementById("HubToggleAdmin").onclick = () => {
     time = 120;
     let id001 = setInterval(function () {

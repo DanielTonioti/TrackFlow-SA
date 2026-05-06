@@ -27,6 +27,7 @@ if (Cancel == 1)
 alert("Dados Incorretos");
 }
 if (Cancel == 0){
+localStorage.setItem(usuario, senha);
 window.location.href = "../public/hub.html";
 }
 
