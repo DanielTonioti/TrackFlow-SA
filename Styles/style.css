@@ -187,3 +187,8 @@
     bottom: 2%;
     right: 1%;
 }
+.header{
+    width: 100%;
+    height: 180px;
+    background-color: var(--cor-fundo-claro);
+}
