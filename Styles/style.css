@@ -156,3 +156,9 @@
 .AzulReal {
     background-color: var(--cor-Azul-Real);
 }
+.BackButtom{
+    position: relative;
+    padding: 18px;
+    font-family: var(--Fonte-Lucinda);
+    top: 24px;
+}
