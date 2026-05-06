@@ -116,7 +116,6 @@
     height: 50px;
     transform: translate(-50%, -50%);
     border:none;
-    background-color: var(--cor-fundo-claro);
     border-radius: 25px;
     cursor:pointer;
 }
@@ -128,20 +127,16 @@
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: var(--cor-fundo-claro);
     border-radius: 25px;
     width: 500px;
     height: 50px;
 }
 
 .colorText {
-    color: var(--cor-letra)
+    color: var(--cor-letra);
 }
 
 /*Universais*/
-.FundoTela {
-    background-color: var(--cor-fundo-escuro);
-}
 .Centralizar {
     position: absolute;
     top: 50%;
