@@ -31,3 +31,5 @@ window.location.href = "../public/hub.html";
 }
 
 })
+
+// window.location.href = "../public/hub.html";
