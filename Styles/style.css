@@ -70,10 +70,6 @@
     width: 120px;
 }
 
-.centralizer {
-    align-content: center;
-}
-
 .buttom {
     margin: 24px;
     padding: 32px;
@@ -93,7 +89,8 @@
 
 .centralizer {
     width: 100%;
-    height: 100%;
+    height: 80%;
+    align-content: center;
 }
 
 
@@ -158,7 +155,7 @@
     padding: 18px;
     font-family: var(--Fonte-Lucinda);
     font-size: 24px;
-    bottom: 2%;
+    bottom: 1%;
     right: 1%;
 }
 .header{
@@ -211,5 +208,9 @@
 }
 .header{
     width: 100%;
-    height: 180px;
+    height: 20%;
+}
+.class001{ /* Conserta posição do botão de voltar */
+    position: relative;
+    top: 48px;
 }
