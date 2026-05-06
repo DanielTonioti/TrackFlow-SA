@@ -13,8 +13,12 @@
 <body>
 
     <head>
-        <header class="header CoresBackground" data-background="AzureClaroFundo">
-
+        <header class="CoresBackground justify-content-between p-5" data-background="AzureClaroFundo">
+            <nav class="nav justify-content-between">
+                <img src="../Assets/logoTrackFlow.png" alt="Logo TrackFlow" id="HubHeaderIcon" >
+                <h1 class="CoresColor" data-color="White" >TrackFlow</h1>
+                <img src="../Assets/User.png" alt="Usuario Icone" id="HubHeaderUser">
+            </nav>
         </header>
     </head>
     <main>
@@ -25,18 +29,20 @@
                         <h1> Olá, (PlaceHolder) </h1>
                     </div>
                     <!-- Central Botões -->
-                    <div class="btn buttom CoresBackground" data-background="CinzaClaroBotoes" id="HubToggleAdmin"> <img
-                            class="icon" src="../Assets/User.png" alt="UseIcon">
-                        <h2 class="HubButtom"> Administradores </h2>
-                    </div>
-                    <div class="btn buttom CoresBackground" data-background="AzulReal" id="HubToggleRelatories"> <img
-                            class="icon" src="../Assets/Relatorie.png" alt="UseIcon">
-                        <h2 class="HubButtom"> Relatórios </h2>
-                    </div>
-                    <div class="btn buttom CoresBackground" data-background="Verde" id="HubToggleSensor"> <img
-                            class="icon" src="../Assets/Sensor.png" alt="UseIcon">
-                        <h2 class="HubButtom"> Sensores </h2>
-                    </div>
+                     <div class="d-flex flex-column">
+                         <div class="btn buttom CoresBackground" data-background="CinzaClaroBotoes" id="HubToggleAdmin"> <img
+                                 class="icon" src="../Assets/User.png" alt="UseIcon">
+                             <h2 class="HubButtom"> Administradores </h2>
+                         </div>
+                         <div class="btn buttom CoresBackground" data-background="AzulReal" id="HubToggleRelatories"> <img
+                                 class="icon" src="../Assets/Relatorie.png" alt="UseIcon">
+                             <h2 class="HubButtom"> Relatórios </h2>
+                         </div>
+                         <div class="btn buttom CoresBackground" data-background="Verde" id="HubToggleSensor"> <img
+                                 class="icon" src="../Assets/Sensor.png" alt="UseIcon">
+                             <h2 class="HubButtom"> Sensores </h2>
+                         </div>
+                     </div>
                 </div>
             </div>
         </div>

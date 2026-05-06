@@ -1,63 +1,63 @@
 :root {
     /*Cores de fundo*/
-    --cor-Azure-Claro-Fundo: #72899b;
-    --cor-Azure-Escuro-Fundo: #526d82;
-    --cor-Cinza-Claro: #c9cace;
+    --cor-azure-claro-fundo: #72899b;
+    --cor-azure-escuro-fundo: #526d82;
+    --cor-cinza-claro: #c9cace;
     /*cor de letra*/
     --cor-letra: white;
     /*cores normais*/
-    --cor-LimeGreen: #c1ff72;
-    --cor-Azul-Real: #5271ff;
+    --cor-lime-green: #c1ff72;
+    --cor-azul-real: #5271ff;
     /*cores de botões*/
-    --cor-Cinza-Claro-Botoes: #adadad;
-    --cor-Verde: #00bf63;
-    --cor-Vermelho: #ff5757;
+    --cor-cinza-claro-botoes: #adadad;
+    --cor-verde: #00bf63;
+    --cor-vermelho: #ff5757;
     /*Fontes de texto*/
-    --Fonte-Padrão: "Pixel";
-    --Fonte-Lucinda: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --Fonte-padrão: "Pixel";
+    --Fonte-lucinda: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Index */
-.IndexTituloPag {
+.index-titulo-pag {
     font-family: var(--Fonte-Lucinda);
     font-size: 5rem;
 
 }
 
 /* Login */
-.c-LoginSloganPag {
+.c-login-slogan-pag {
     font-family: var(--Fonte-Padrão);
     font-size: 4rem;
     width: 59.9%;
     height: 100%;
 }
 
-.c-LoginSeparacao {
+.c-login-separacao {
     width: 0.2%;
     height: 100%;
 }
 
-.c-LoginArea {
+.c-login-area {
     width: 39.9%;
     height: 100%;
 }
 
-.LoginImg {
+.login-img {
     width: auto;
     height: 300px;
 }
 
-.LoginButton {
+.login-button {
     padding: 5px;
     border: none;
 }
 
-.LoginTamanhoTituloSlogan {
+.login-tamanho-titulo-slogan {
     font-size: 4rem;
     font-weight: bold;
 }
 
-.LoginTamanhoTituloLogin {
+.login-tamanho-titulo-login {
     margin-top: 22%;
     font-size: 300%;
     font-weight: bold;
@@ -79,7 +79,7 @@
 
 }
 
-.HubButtom {
+.hub-buttom {
     position: relative;
     left: 48px;
     top: 12px;
@@ -102,10 +102,22 @@
     border-radius: 12px;
 }
 
+#hub-header-icon{
+    width: 5%;
+    height: 2.5%;
+}
+#hub-header-user{
+    width: 1%;
+    height: 1%;
+}
+#hub-header-arrow{
+    width: 1%;
+    height: 1%;
+}
 
 /*Admin*/
 
-.AdminButton {
+.admin-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,12 +132,12 @@
     cursor:pointer;
     user-select: none;
 }
-.AdminTituloTexto {
+.admin-titulo-texto {
     margin:0;
     text-align: center;
     user-select: none;
 }
-.AdminTitulo {
+.admin-titulo {
     margin:0px;
     display: flex;
     text-align: center;
@@ -141,10 +153,10 @@
     user-select: none;
 }
 
-.AdminAdicionar {
+.admin-adicionar {
     margin-top:150px;
 }
-.AdminTabela {
+.admin-tabela {
     width: 500px;
     height: 40px;
     align-items: center;
@@ -154,14 +166,14 @@
     margin-bottom:0px;
     gap:1px;
 }
-.CentralizarTabela {
+.centralizar-tabela {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 }
-.AdminTabelaButton {
+.admin-tabela-button {
    width: 100px;
     height: 40px;
     align-items: center;
@@ -170,11 +182,11 @@
     user-select: none;
         margin-bottom:0px;
 }
-.TabelaTexto {
+.tabela-texto {
    font-size: 25px;
 }
 
-.BorderTabela {
+.border-tabela {
     border:2px solid rgb(0, 0, 0);
 }
 .flex {
@@ -188,7 +200,7 @@
 
 
 /* Cores */
-.BackButtom{
+.back-buttom{
     position: relative;
     padding: 18px;
     font-family: var(--Fonte-Lucinda);
@@ -202,46 +214,46 @@
     background-color: var(--cor-fundo-claro);
 }
 
-.CoresColor {
+.cores-color {
     color: var(--cor-color);
 }
 
-.CoresBackground {
+.cores-background {
     background-color: var(--cor-background);
 }
 /* Cores Color */
-[data-color="LimeGreen"] {
-    --cor-color: var(--cor-LimeGreen);
+[data-color="lime-green"] {
+    --cor-color: var(--cor-lime-green);
 }
-[data-color="White"] {
+[data-color="white"] {
     --cor-color: var(--cor-letra);
 }
 /* Cores Background */
-[data-background="AzulReal"] {
+[data-background="azul-real"] {
     --cor-background: var(--cor-Azul-Real);
 }
 
-[data-background="AzureEscuroFundo"] {
+[data-background="azure-escuro-fundo"] {
     --cor-background: var(--cor-Azure-Escuro-Fundo);
 }
 
-[data-background="AzureClaroFundo"] {
+[data-background="azure-claro-fundo"] {
     --cor-background: var(--cor-Azure-Claro-Fundo);
 }
 
-[data-background="CinzaClaroBotoes"] {
+[data-background="cinza-claro-botoes"] {
     --cor-background: var(--cor-Cinza-Claro-Botoes);
 }
 
-[data-background="CinzaClaro"] {
+[data-background="cinza-claro"] {
     --cor-background: var(--cor-Cinza-Claro);
 }
 
-[data-background="Verde"] {
+[data-background="verde"] {
     --cor-background: var(--cor-Verde);
 }
 
-[data-background="Vermelho"] {
+[data-background="vermelho"] {
     --cor-background: var(--cor-Vermelho);
 }
 .header{
