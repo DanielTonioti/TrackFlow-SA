@@ -256,12 +256,12 @@
     top: 48px;
 }
 
-.AjustIcon-Logo{
+.ajust-icon-logo{
 width: 160px;
 height: 160px;
 }
 
-.AjustIcon-Menu{
+.ajust-icon-menu{
 width: 120px;
 height: 120px;
 margin: 20px;
@@ -272,4 +272,26 @@ margin: 20px;
 }
 *{
     font-family: var(--Fonte-Padrão);
+}
+
+.relatorio-info-tabela {
+    width: 500px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    user-select: none;
+    margin-bottom:0px;
+    gap:1px;
+}
+
+.relatorio-tempo-tabela {
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    user-select: none;
+    margin-bottom:0px;
+    gap:1px;
 }
