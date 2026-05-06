@@ -180,8 +180,10 @@
     background-color: var(--cor-Azul-Real);
 }
 .BackButtom{
-    position: relative;
-    padding: 18px;
+    position: absolute;
+    padding: 36px;
     font-family: var(--Fonte-Lucinda);
-    top: 24px;
+    font-size: 24px;
+    bottom: 2%;
+    right: 1%;
 }
