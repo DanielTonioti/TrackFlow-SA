@@ -103,18 +103,16 @@
 }
 
 #hub-header-icon{
-    width: 5%;
-    height: 2.5%;
+    width: 7%;
+    height: 7%;
 }
 #hub-header-user{
-    width: 1%;
-    height: 1%;
+    width: 5%;
+    height: 5%;
 }
-#hub-header-arrow{
-    width: 1%;
-    height: 1%;
+.hub-header-height{
+    height: 20%;
 }
-
 /*Admin*/
 
 .admin-button {
@@ -194,11 +192,10 @@
     width:496px;
     margin-bottom:0px;
 }
+
 /*Universais*/
-
-
-
-
+/* d-flex flex-column align-items-center justify-content-center */
+/* Se não sabe como centralizar uma div usa isso ^ */
 /* Cores */
 .back-buttom{
     position: relative;
