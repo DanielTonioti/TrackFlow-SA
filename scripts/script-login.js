@@ -1,4 +1,7 @@
-let contas = (("Marlon", "123"), ("Susane", "1234"), ("Frederico", "12345"))
+let contas = (("marlon@gmail.com", "123"), 
+    ("susane@gmail.com", "1234"), 
+    ("frederico@gmail.com", "12345")
+);
 let cancel = 0;
 
 console.log(contas[0][1]);
