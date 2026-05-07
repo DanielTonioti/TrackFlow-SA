@@ -2,12 +2,13 @@
     
     1°: A divisão inicial de tarefas é: Samuel(Pesquisa CRUD), Natan e Daniel(Página de Login), Roberto(Gerenciamento JS da tela de login), Lucas(Não definido pois houve falta)
 
-Para não se confudir, a linguagem PHP usa comandos SQL, sendo eles: Insert Into(CREATE),Select(READ),Uptade e Delete.
+
+O PHP usa a linguagem SQL (Structured Query Language) para conversar com o banco de dados. SQL é a linguagem que os bancos de dados entendem, e cada operação CRUD corresponde a um comando SQL específico. O Insert Into cria novos registros (Create), o Select recupera dados existentes (Read), o Update modifica dados que já estão lá (Update), e o Delete remove dados (Delete).
 
 O que é o CRUD?
-CRUD é  um acrônimo da lingua inglesa (Create, Read, Update, Delete) que significa as 4 (quatro) principais operações de um banco de dados(inserir, ler, atualizar, excluir. Respectivamente), suas funções são:
+CRUD é um acrônimo em inglês que significa Create, Read, Update e Delete. Essas são as quatro operações fundamentais que você pode realizar em um banco de dados. Quando você trabalha com dados seja adicionando um novo usuário, visualizando informações, corrigindo um perfil ou removendo um registro você está executando uma dessas operações CRUD.
     
-    Create: Tal função torna-se fundamental para adicionar um ou mais produtos ou em um sistema de gerenciamento de usuários ao criar um novo perfil.
+    Create: é a operação responsável por adicionar novos dados ao banco de dados. Quando você cria um novo perfil de usuário em um sistema de gerenciamento, você está executando uma operação Create.
 
     Read: Essa função permite os sistemas acessar e/ou exibir dados. Sendo usada toda vez que solicitasse informações. Essencialmente, essa função garante que os dados armazenados possam ser recuperados e visualizados quando necessário.
 

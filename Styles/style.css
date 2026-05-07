@@ -230,31 +230,31 @@
 }
 /* Cores Background */
 [data-background="azul-real"] {
-    --cor-background: var(--cor-Azul-Real);
+    --cor-background: var(--cor-azul-real);
 }
 
 [data-background="azure-escuro-fundo"] {
-    --cor-background: var(--cor-Azure-Escuro-Fundo);
+    --cor-background: var(--cor-azure-escuro-fundo);
 }
 
 [data-background="azure-claro-fundo"] {
-    --cor-background: var(--cor-Azure-Claro-Fundo);
+    --cor-background: var(--cor-azure-claro-fundo);
 }
 
 [data-background="cinza-claro-botoes"] {
-    --cor-background: var(--cor-Cinza-Claro-Botoes);
+    --cor-background: var(--cor-cinza-claro-botoes);
 }
 
 [data-background="cinza-claro"] {
-    --cor-background: var(--cor-Cinza-Claro);
+    --cor-background: var(--cor-cinza-claro);
 }
 
 [data-background="verde"] {
-    --cor-background: var(--cor-Verde);
+    --cor-background: var(--cor-verde);
 }
 
 [data-background="vermelho"] {
-    --cor-background: var(--cor-Vermelho);
+    --cor-background: var(--cor-vermelho);
 }
 .header{
     width: 100%;
