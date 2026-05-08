@@ -142,13 +142,15 @@
 }
 
 .admin-titulo-texto {
-    margin: 0;
     text-align: center;
     user-select: none;
+    padding-top: 3%;
 }
 
 .admin-titulo {
-    display:block;
+    justify-content: center;
+    align-items: center;
+    display:flex;
     margin-top:6%;
     margin-left:37%;
     border-radius: 25px;
