@@ -211,12 +211,12 @@
 /* Se não sabe como centralizar uma div usa isso ^ */
 /* Cores */
 .back-buttom {
-    position: relative;
+    position: absolute;
     padding: 18px;
     font-family: var(--Fonte-Lucinda);
     font-size: 24px;
-    bottom: 1%;
-    right: 1%;
+    top: 85%;
+    left: 2%;
 }
 
 .header {
