@@ -45,11 +45,11 @@
 
 .login-img {
     width: auto;
-    height: 300px;
+    height: 55%;
 }
 
 .login-button {
-    padding: 5px;
+    padding: 0.5%;
     border: none;
 }
 
