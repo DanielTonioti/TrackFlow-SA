@@ -193,8 +193,65 @@
     width: 496px;
     margin-bottom: 0px;
 }
+/*RelatorioInfo*/
+.relatorio-info-tabela {
+    width: 500px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    user-select: none;
+    margin-bottom: 0px;
+    gap: 1px;
+}
+
+.relatorio-tempo-tabela {
+    width: 120px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    user-select: none;
+    margin-bottom: 0px;
+    gap: 1px;
+}
+/*Logo/icon*/
+.ajust-icon-logo {
+    width: 160px;
+    height: 160px;
+}
+
+.ajust-icon-menu {
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+}
+.header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    height: 180px;
+    background-color: var(--cor-fundo-claro);
+}
 
 /*Universais*/
+* {
+    font-family: var(--Fonte-Padrão);
+}
+@font-face {
+    font-family: "Pixel";
+    src: url(../Fonts/LeagueSpartan-VariableFont_wght.ttf);
+}
+.class001 {
+    /* Conserta posição do botão de voltar */
+    position: relative;
+    top: 48px;
+}
 /* d-flex flex-column align-items-center justify-content-center */
 /* Se não sabe como centralizar uma div usa isso ^ */
 /* Cores */
@@ -207,11 +264,6 @@
     left: 2%;
 }
 
-.header {
-    width: 100%;
-    height: 180px;
-    background-color: var(--cor-fundo-claro);
-}
 
 .cores-color {
     color: var(--cor-color);
@@ -263,58 +315,9 @@
     --cor-background: var(--cor-vermelho);
 }
 
-.header {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.class001 {
-    /* Conserta posição do botão de voltar */
-    position: relative;
-    top: 48px;
-}
 
-.ajust-icon-logo {
-    width: 160px;
-    height: 160px;
-}
 
-.ajust-icon-menu {
-    width: 120px;
-    height: 120px;
-    margin: 20px;
-}
 
-@font-face {
-    font-family: "Pixel";
-    src: url(../Fonts/LeagueSpartan-VariableFont_wght.ttf);
-}
 
-* {
-    font-family: var(--Fonte-Padrão);
-}
 
-.relatorio-info-tabela {
-    width: 500px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    user-select: none;
-    margin-bottom: 0px;
-    gap: 1px;
-}
-
-.relatorio-tempo-tabela {
-    width: 120px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    user-select: none;
-    margin-bottom: 0px;
-    gap: 1px;
-}
