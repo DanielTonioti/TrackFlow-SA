@@ -1,6 +1,6 @@
-let contas = (("marlon@gmail.com", "123"), 
+let contas = (("marlon@gmail.com", "1234"), 
     ("susane@gmail.com", "1234"), 
-    ("frederico@gmail.com", "12345")
+    ("frederico@gmail.com", "1234")
 ); // Small test at pre-inserted accounts
 let cancel = 0; // Cancels login
 
