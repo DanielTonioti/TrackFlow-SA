@@ -45,16 +45,16 @@
 
 .login-img {
     width: auto;
-    height: 300px;
+    height: 55%;
 }
 
 .login-button {
-    padding: 5px;
+    padding: 0.5%;
     border: none;
 }
 
 .login-tamanho-titulo-slogan {
-    font-size: 4rem;
+    font-size: 400%;
     font-weight: bold;
 }
 
@@ -66,6 +66,9 @@
 
 /* Hub */
 
+.hub-main-content-aligment{
+    align-content: center;
+}
 .buttom {
     padding: 32px;
     width: 120px;
@@ -81,9 +84,7 @@
 }
 
 .hub-buttom {
-    position: relative;
-    left: 48px;
-    top: 12px;
+    align-content: center;
     font-family: var(--Fonte-Lucinda);
     color: var(--cor-letra)
 }
@@ -92,17 +93,25 @@
     align-content: center;
 }
 
+.hub-header-title-aligment{
+    position:absolute ;
+    top: 1%;
+    right: 50%;
+    left: 50%;
+    
+}
+
 
 .icon {
-    width: 64px;
-    height: 64px;
+    width: 16%;
+    height: 15%;
     background-color: var(--cor-letra);
-    padding: 8px;
-    border-radius: 12px;
+    padding: 1.5%;
+    border-radius: 14%;
 }
 .hub-header-icon {
     width: auto;
-    height: 100%;
+    height: 70%;
 }
 
 .hub-header-user {
@@ -114,7 +123,8 @@
     height: 20%;
 }
 .hub-greetings-user{
-    font-size: 400%;
+    font-size: 322%;
+    margin-top: 5%;
 }
 
 /*Admin*/
@@ -138,15 +148,9 @@
 }
 
 .admin-titulo {
-    margin: 0px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display:block;
+    margin-top:6%;
+    margin-left:37%;
     border-radius: 25px;
     width: 500px;
     height: 50px;
@@ -161,13 +165,13 @@
     display: flex;
     user-select: none;
     margin-bottom: 0px;
-    gap: 1px;
+   
 }
 
 .centralizar-tabela {
     display:block;
     margin-left:37%;
-    margin-top:10%;
+    margin-top:2%;
 }
 
 .admin-tabela-button {
@@ -217,14 +221,14 @@
 }
 /*Logo/icon*/
 .ajust-icon-logo {
-    width: 160px;
-    height: 160px;
+    width: 40%;
+    height: 40%;
 }
 
 .ajust-icon-menu {
-    width: 120px;
-    height: 120px;
-    margin: 20px;
+    width: 40%;
+    height: 40%;
+    margin: 40%;
 }
 .header {
     width: 100%;
@@ -271,6 +275,7 @@
 
 .cores-background {
     background-color: var(--cor-background);
+    background-image: url();
 }
 
 /* Cores Color */
