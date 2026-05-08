@@ -28,7 +28,7 @@
 /* Login */
 .c-login-slogan-pag {
     font-family: var(--Fonte-Padrão);
-    font-size: 4rem;
+    font-size:110%;
     width: 59.9%;
     height: 100%;
 }
@@ -255,6 +255,10 @@
     /* Conserta posição do botão de voltar */
     position: relative;
     top: 48px;
+}
+.full-size{
+    width: 100%;
+    height: 100%;
 }
 /* d-flex flex-column align-items-center justify-content-center */
 /* Se não sabe como centralizar uma div usa isso ^ */
