@@ -12,7 +12,7 @@ document.getElementById("hub-toggle-admin").onclick = () => {
             clearInterval(id001);
         }
     }, 10);
-}
+} // Brings you to the admin page after a small delay
 document.getElementById("hub-toggle-relatories").onclick = () => {
     time = 30;
     let id001 = setInterval(function () {
@@ -25,7 +25,7 @@ document.getElementById("hub-toggle-relatories").onclick = () => {
             clearInterval(id001);
         }
     }, 10);
-}
+} // Brings you to the relatories page after a small delay
 document.getElementById("hub-toggle-sensor").onclick = () => {
     time = 30;
     let id001 = setInterval(function () {
@@ -38,4 +38,4 @@ document.getElementById("hub-toggle-sensor").onclick = () => {
             clearInterval(id001);
         }
     }, 10);
-}
+} // Brings you to the sensors page after a small delay

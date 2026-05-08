@@ -11,4 +11,4 @@ document.getElementById("index-button").onclick = () => {
             clearInterval(id001);
         }
     }, 10);
-}
+} // Brings you to the log-in page after a small delay.
