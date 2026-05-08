@@ -54,7 +54,7 @@
 }
 
 .login-tamanho-titulo-slogan {
-    font-size: 4rem;
+    font-size: 400%;
     font-weight: bold;
 }
 
@@ -95,7 +95,7 @@
 
 .hub-header-title-aligment{
     position:absolute ;
-    top: 6%;
+    top: 1%;
     right: 50%;
     left: 50%;
     
@@ -108,11 +108,10 @@
     background-color: var(--cor-letra);
     padding: 1.5%;
     border-radius: 14%;
-    gap:;
 }
 .hub-header-icon {
     width: auto;
-    height: 100%;
+    height: 70%;
 }
 
 .hub-header-user {
@@ -124,7 +123,8 @@
     height: 20%;
 }
 .hub-greetings-user{
-    font-size: 400%;
+    font-size: 322%;
+    margin-top: 5%;
 }
 
 /*Admin*/
@@ -227,17 +227,17 @@
 }
 /*Logo/icon*/
 .ajust-icon-logo {
-    width: 160px;
-    height: 160px;
+    width: 40%;
+    height: 40%;
 }
 
 .ajust-icon-menu {
-    width: 120px;
-    height: 120px;
-    margin: 20px;
+    width: 40%;
+    height: 40%;
+    margin: 40%;
 }
 .header {
-    width: 100%;
+    width: 80%;
     height: 20%;
     display: flex;
     justify-content: space-between;
@@ -245,7 +245,7 @@
 }
 .header {
     width: 100%;
-    height: 180px;
+    height: 10%;
     background-color: var(--cor-fundo-claro);
 }
 
@@ -281,6 +281,7 @@
 
 .cores-background {
     background-color: var(--cor-background);
+    background-image: url();
 }
 
 /* Cores Color */
