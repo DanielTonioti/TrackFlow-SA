@@ -64,11 +64,16 @@
     font-weight: bold;
 }
 /* Sensor */
+.titulo-Sensor {
+    jus
+    display:block;
+    margin-top:5%;
+    margin-left:47%;
+}
 .centralizar-botoes-sensor {
     display:block;
     margin-top:15%;
     margin-left:20%;
-
 }
 .botoes-sensor {
     display: flex;
