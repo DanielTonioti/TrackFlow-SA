@@ -170,7 +170,7 @@
     align-items: center;
     display:flex;
     margin-top:6%;
-    margin-left:37%;
+    margin-bottom: 2%;
     border-radius: 25px;
     width: 500px;
     height: 50px;
@@ -178,7 +178,7 @@
 }
 
 .admin-tabela {
-    width: 500px;
+    min-width: 200px;
     height: 40px;
     align-items: center;
     justify-content: center;
@@ -189,9 +189,7 @@
 }
 
 .centralizar-tabela {
-    display:block;
-    margin-left:37%;
-    margin-top:2%;
+    justify-content: center;
 }
 
 .admin-tabela-button {
@@ -214,8 +212,6 @@
 
 .flex {
     display: flex;
-    width: 496px;
-    margin-bottom: 0px;
 }
 /*RelatorioInfo*/
 .relatorio-info-tabela {
