@@ -107,7 +107,8 @@
 .hub-buttom {
     align-content: center;
     font-family: var(--Fonte-Lucinda);
-    color: var(--cor-letra)
+    color: var(--cor-letra);
+    font-size: 80%;
 }
 
 .centralizer {
@@ -118,10 +119,12 @@
     position:flex ;
 
 }
-
+.name{
+    font-size: 100%;
+}
 
 .icon {
-    width: 14%;
+    width: 100%;
     height: 100%;
     background-color: var(--cor-letra);
     padding: 1.5%;
@@ -257,6 +260,9 @@
     width: 100%;
     height: 5%;
     background-color: var(--cor-fundo-claro);
+}
+.header-buttom{
+    width: 20%;
 }
 
 /*Universais*/
