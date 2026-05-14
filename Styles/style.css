@@ -271,6 +271,9 @@
 }
 
 /*Universais*/
+.userselect {
+    user-select:none;
+}
 * {
     font-family: var(--Fonte-Padrão);
 }
