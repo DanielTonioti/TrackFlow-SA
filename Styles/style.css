@@ -242,12 +242,14 @@
 .ajust-icon-logo {
     width: 40%;
     height: 40%;
+
 }
 
 .ajust-icon-menu {
     width: 40%;
     height: 40%;
     margin: 40%;
+
 }
 .header {
     width: 100%;
@@ -255,14 +257,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    user-select:none;
 }
 .header {
     width: 100%;
     height: 5%;
     background-color: var(--cor-fundo-claro);
+   
 }
 .header-buttom{
     width: 20%;
+   
 }
 
 /*Universais*/
