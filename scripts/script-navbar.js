@@ -33,7 +33,7 @@ document.getElementById("hub-toggle-sensor").onclick = () => {
             timenav -= 1;
         }
         else {
-            window.location.href = "sensor.html";
+            window.location.href = "hub.html";
             timenav = 30;
             clearInterval(id001);
         }
