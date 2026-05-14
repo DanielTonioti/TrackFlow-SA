@@ -39,3 +39,7 @@ document.getElementById("hub-toggle-sensor").onclick = () => {
         }
     }, 10);
 } // Brings you to the sensors page after a small delay
+
+document.getElementById("VoltarLogin").onclick = () => {
+window.location.href = "Login.html";
+}
