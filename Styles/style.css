@@ -84,9 +84,6 @@
    border-radius:7%;
 }
 
-
-
-
 /* Hub */
 .hub-tamanho-titulo-slogan{
     font-size: 200%;
@@ -102,7 +99,6 @@
     width: 20%;
     display: flex;
 }
-
 
 .hub-buttom {
     align-content: center;
