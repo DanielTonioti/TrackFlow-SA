@@ -198,6 +198,16 @@ margin-bottom: -4%;
     user-select: none;
 }
 
+.admin-tabela {
+    min-width: 230px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    user-select: none;
+    margin-bottom: 0px;
+   
+}
 
 .centralizar-tabela {
     justify-content: center;
