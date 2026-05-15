@@ -64,11 +64,33 @@
     font-weight: bold;
 }
 
+/* Usuario_Info */
+.blockcentro {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.Dangerzone {
+      border: var(--cor-vermelho) solid 0.2vh;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+.ButtonExcluirUsuario {
+margin-top: 5%;
+margin-bottom: -4%;
+}
+.FormUsuario {
+    width:30%;
+}
+.FormUsuarioDanger {
+    width:54%;
+}
 /* Sensor */
 .titulo-Sensor {
     display: block;
-    margin-top: 5%;
-    margin-left: 47%;
+  
 }
 
 .centralizar-botoes-sensor {
