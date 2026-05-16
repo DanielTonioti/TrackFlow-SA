@@ -66,31 +66,36 @@
 
 /* Usuario_Info */
 .blockcentro {
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
 }
+
 .Dangerzone {
-      border: var(--cor-vermelho) solid 0.2vh;
+    border: var(--cor-vermelho) solid 0.2vh;
     width: 60%;
     margin: auto;
     padding: 20px;
 }
+
 .ButtonExcluirUsuario {
-margin-top: 5%;
-margin-bottom: -4%;
+    margin-top: 5%;
+    margin-bottom: -4%;
 }
+
 .FormUsuario {
-    width:30%;
+    width: 30%;
 }
+
 .FormUsuarioDanger {
-    width:54%;
+    width: 54%;
 }
+
 /* Sensor */
 .titulo-Sensor {
     display: block;
-  
+
 }
 
 .centralizar-botoes-sensor {
@@ -199,14 +204,14 @@ margin-bottom: -4%;
 }
 
 .admin-tabela {
-    min-width: 230px;
-    height: 40px;
+    width: 20vmax;
+    height: 5vmin;
     align-items: center;
     justify-content: center;
     display: flex;
     user-select: none;
     margin-bottom: 0px;
-   
+
 }
 
 .centralizar-tabela {
@@ -214,8 +219,8 @@ margin-bottom: -4%;
 }
 
 .admin-tabela-button {
-    width: 100px;
-    height: 40px;
+    width: 8vmax;
+    height: 5vmin;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -224,7 +229,7 @@ margin-bottom: -4%;
 }
 
 .tabela-texto {
-    font-size: 25px;
+    font-size: 2.8vmin;
 }
 
 .border-tabela {
@@ -278,25 +283,26 @@ margin-bottom: -4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    user-select:none;
+    user-select: none;
 }
 
 .header {
     width: 100%;
     height: 5%;
     background-color: var(--cor-fundo-claro);
-   
+
 }
 
 .header-buttom {
     width: 20%;
-   
+
 }
 
 /*Universais*/
 .userselect {
-    user-select:none;
+    user-select: none;
 }
+
 * {
     font-family: var(--Fonte-Padrão);
 }
@@ -328,7 +334,7 @@ margin-bottom: -4%;
     position: absolute;
     padding: 18px;
     font-family: var(--Fonte-Lucinda);
-    font-size: 24px;
+    font-size: 1vw;
     top: 85%;
     left: 2%;
 }
