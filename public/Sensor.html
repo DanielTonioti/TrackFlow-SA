@@ -13,29 +13,51 @@
 <body class="cores-background " data-background="azure-escuro-fundo" class=" cores-background "
     data-background="azure-escuro-fundo">
     <header>
-        <div class="cores-background d-flex header px-3" data-background="azure-claro-fundo">
-            <img src="../assets/logo-track-flow.png" alt="Logo TrackFlow" class="hub-header-icon">
-            <div class=" hub-header-title-aligment">
-                <h2 class="fw-bold cores-color" data-color="white"> TrackFlow </h2>
+
+        <nav class="navbar navbar-dark cores-background" data-background="azure-claro-fundo">
+            <!-- http://127.0.0.1:5500/public/hub.html -->
+            <div class="container-fluid">
+
+                <a class="navbar-brand  d-flex align-items-center" href="#">
+                    <img src="../assets/logo-track-flow.png" alt="Logo TrackFlow" class="hub-icon ">
+                    <h2 class="fw-bold cores-color mb-0" data-color="white"> Trackflow </h2>
+                </a>
+                <div class="d-flex">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasDarkNavbar">
+                        <span class=" navbar-toggler-icon"></span>
+                    </button>
+                    <div class="hub-end offcanvas offcanvas-start cores-background" tabindex="-1"
+                        id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel"
+                        data-background="azure-claro-fundo">
+                        <div class="offcanvas-header">
+                            <h3 class="offcanvas-title cores-color" data-color="white" id="offcanvasDarkNavbarLabel">
+                                TrackFlow</h3>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Admin.html">Funcionarios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Relatories.html">Relatórios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="hub.html">Sensores</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <img src="../assets/user.png" alt="User Profile"
+                        class=" hub-end  hub-user cores-background rounded-circle" data-background="cinza-claro">
+                </div>
             </div>
-            <div class="w-50 h-75 d-flex d-flex flex-row-reverse ">
-                <div class=" shadow rounded-4 btn buttom cores-background me-5" data-background="cinza-claro-botoes"
-                    id="hub-toggle-admin"> <img class="icon" src="../assets/user.png" alt="User Icon">
-                    <h2 class="text-center hub-buttom hub-main-content-aligment fs-6 ms-2"> Administradores </h2>
-                </div>
-                <div class=" shadow rounded-4 btn buttom cores-background me-5" data-background="azul-real"
-                    id="hub-toggle-relatories">
-                    <img class="icon" src="../assets/relatorie.png" alt="UseIcon">
-                    <h2 class="hub-buttom fs-6 ms-2"> Relatórios </h2>
-                </div>
-                <div class=" shadow rounded-4 btn buttom cores-background me-5" data-background="verde"
-                    id="hub-toggle-sensor"> <img class="icon" src="../assets/sensor.png" alt="UseIcon">
-                    <h2 class=" hub-buttom fs-6 ms-2"> Sensores </h2>
-                </div>
-            </div>
-            <img src="../assets/user.png" alt="menu TrackFlow" class="hub-header-user cores-background rounded-circle"
-                data-background="cinza-claro">
-        </div>
+        </nav>
+
     </header>
 
     <main>

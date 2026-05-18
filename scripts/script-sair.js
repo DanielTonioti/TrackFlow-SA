@@ -1,3 +1,3 @@
 document.getElementById("VoltarLogin").onclick = () => {
-window.location.href = "login.html";
+    window.location.href = "login.html";
 }

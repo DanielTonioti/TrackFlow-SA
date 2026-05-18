@@ -19,26 +19,27 @@
 }
 
 .hub-brand {
-    display:flex;
+    display: flex;
     justify-content: start;
 }
+
 .hub-end {
-    display:flex;
+    display: flex;
     justify-content: end;
 }
 
 .hub-icon {
-   max-height: 3rem;
-   width: auto;
+    max-height: 3rem;
+    width: auto;
 
 }
- 
+
 .hub-user {
-    display:flex;
-   width: 2.5rem;
-   height: 2.5rem;
-   margin-left: 1rem;
-   justify-content:end;
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    justify-content: end;
 }
 
 
