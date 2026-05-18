@@ -13,85 +13,52 @@
 <body class="cores-background " data-background="azure-escuro-fundo">
 
     <head>
-      <header>
-   <!-- NAV: Menu responsivo do Bootstrap -->
-   <nav class="navbar navbar-expand-lg cores-background" data-background="azure-claro-fundo">
-      
-       <!-- Container interno (Bootstrap) -->
-       <div class="container-fluid">
-          
-           <!-- SEÇÃO 1: LOGO + TÍTULO -->
-           <a class="navbar-brand d-flex align-items-center" href="#">
-               <!-- Logo da empresa -->
-               <img src="../assets/logo-track-flow.png" alt="Logo TrackFlow"
-                class="hub-icon ">
-              
-               <!-- Texto "TrackFlow" → -->
-               <h2 class="fw-bold cores-color mb-0" data-color="white">
-                   TrackFlow
-               </h2>
-           </a>
-           
-           <!-- SEÇÃO 2: HAMBURGER BUTTON (só aparece em mobile) -->
-           <button
-               class="navbar-toggler"
-               type="button"
-               data-bs-toggle="collapse"
-               data-bs-target="#navbarNav"> 
-               <span class="navbar-toggler-icon"></span>
-           </button>
- 
-           <!-- SEÇÃO 3: MENU ITEMS (aparece em mobile se clicar, sempre em desktop) -->
-           <div class="collapse navbar-collapse" id="navbarNav">
-               <!-- Container dos botões com espaçamento -->
-               <div class="ms-auto d-flex gap-2 flex-wrap justify-content-center justify-content-lg-end align-items-center">
-                  
-                   <!-- BOTÃO 1: ADMINISTRADORES -->
-                   <button
-                       class="btn-sm btn-lg-md rounded-4 d-flex align-items-center cores-background"
-                       data-background="cinza-claro-botoes" id="hub-toggle-admin">
-                       <!-- Ícone do botão -->
-                       <img class="icon-sm" src="../assets/user.png" alt="User Icon">
-                       <!-- Texto (só aparece em smartphone grande+) -->
-                       <span class="ms-2 d-none d-sm-inline fw-bold cores-color" data-color="white">
-                           Administradores
-                       </span>
-                   </button>
- 
-                   <!-- BOTÃO 2: RELATÓRIOS -->
-                   <button
-                       class="btn btn-sm btn-lg-md cores-background rounded-4 d-flex align-items-center"
-                       data-background="azul-real"
-                       id="hub-toggle-relatories">
-                       <img class="icon-sm" src="../assets/relatorie.png" alt="Relatórios Icon">
-                       <span class="ms-2 d-none d-sm-inline fw-bold cores-color" data-color="white">
-                           Relatórios
-                       </span>
-                   </button>
- 
-                   <!-- BOTÃO 3: SENSORES -->
-                   <button
-                       class="btn btn-sm btn-lg-md cores-background rounded-4 d-flex align-items-center"
-                       data-background="verde"
-                       id="hub-toggle-sensor">
-                       <img class=" icon-sm" src="../assets/sensor.png" alt="Sensor Icon">
-                       <span class="ms-2 d-none d-sm-inline fw-bold cores-color" data-color="white">
-                           Sensores
-                       </span>
-                   </button>
- 
-                   <!-- FOTO DO USUÁRIO (direita) -->
-                
-               </div>
-           </div>
-              <img
-                       src="../assets/user.png"
-                       alt="User Profile"
-                       class=" hub-user cores-background rounded-circle"
-                       data-background="cinza-claro">
-       </div>
-   </nav>
-</header>
+        <header>
+
+            <nav class="navbar navbar-dark cores-background" data-background="azure-claro-fundo">http://127.0.0.1:5500/public/hub.html
+                <div class="container-fluid">
+
+                    <a class="navbar-brand  d-flex align-items-center" href="#">
+                        <img src="../assets/logo-track-flow.png" alt="Logo TrackFlow" class="hub-icon ">
+                        <h2 class="fw-bold cores-color mb-0" data-color="white"> Trackflow </h2>
+                    </a>
+                    <div class="d-flex">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDarkNavbar">
+                            <span class=" navbar-toggler-icon"></span>
+                        </button>
+                        <div class="hub-end offcanvas offcanvas-start cores-background" tabindex="-1"
+                            id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel"
+                            data-background="azure-claro-fundo">
+                            <div class="offcanvas-header">
+                                <h3 class="offcanvas-title cores-color" data-color="white" id="offcanvasDarkNavbarLabel">
+                                    TrackFlow</h3>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="Admin.html">Funcionarios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="Relatories.html">Relatórios</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="hub.html">Sensores</a>
+                                    </li>
+    
+                                </ul>
+    
+                            </div>
+                        </div>
+                        <img src="../assets/user.png" alt="User Profile"
+                            class=" hub-end  hub-user cores-background rounded-circle" data-background="cinza-claro">
+                    </div>
+                </div>
+            </nav>
+
+        </header>
 
     </head>
     <main>
@@ -149,16 +116,16 @@
                 </div>
             </div>
             <button id="VoltarLogin" class="btn btn-danger back-buttom"> Sair </button>
-        </main>
-        <footer>
-    
-        </footer>
-    
-        <script src="../scripts/script-sair.js"></script>
-        <script src="../scripts/script-navbar.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="../scripts/script-sair.js"></script>
+    <script src="../scripts/script-navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 </body>
 
