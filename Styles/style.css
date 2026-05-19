@@ -3,6 +3,11 @@
     --cor-azure-claro-fundo: #72899b;
     --cor-azure-escuro-fundo: #526d82;
     --cor-cinza-claro: #c9cace;
+    --cor-azul-pastel: #67a4ff;
+    --cor-azul-vivido: #0066ff;
+    --cor-azul-apagado: #6b7280;
+    --cor-verde-escuro: #108b50;
+    --cor-azure-apagado: #65869f;
     /*cor de letra*/
     --cor-letra: white;
     --cor-black: black;
@@ -18,29 +23,6 @@
     --Fonte-lucinda: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.hub-brand {
-    display: flex;
-    justify-content: start;
-}
-
-.hub-end {
-    display: flex;
-    justify-content: end;
-}
-
-.hub-icon {
-    max-height: 3rem;
-    width: auto;
-
-}
-
-.hub-user {
-    display: flex;
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-left: 1rem;
-    justify-content: end;
-}
 
 
 /* Index */
@@ -140,6 +122,43 @@
 }
 
 /* Hub */
+.hub-brand {
+    display: flex;
+    justify-content: start;
+}
+
+.hub-end {
+    display: flex;
+    justify-content: end;
+}
+
+.hub-icon {
+    max-height: 3rem;
+    width: auto;
+
+}
+
+.hub-user {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    justify-content: end;
+}
+
+hr {
+    border: none;
+    border-top: 0.5vw solid var(--cor-letra);
+    margin: 0;
+
+}
+
+.hub-main-graphics {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+}
+
 .hub-tamanho-titulo-slogan {
     font-size: 200%;
     font-weight: bold;
@@ -363,7 +382,7 @@
 }
 
 .grid-element {
-    width: 300px;
+    width: 15vw;
     height: 60px;
     margin-left: 24px;
     margin-right: 24px;
@@ -421,4 +440,24 @@
 
 [data-background="vermelho"] {
     --cor-background: var(--cor-vermelho);
+}
+
+[data-background="azul-vivido"] {
+    --cor-background: var(--cor-azul-vivido);
+}
+
+[data-background="azul-pastel"] {
+    --cor-background: var(--cor-azul-pastel);
+}
+
+[data-background="azul-apagado"] {
+    --cor-background: var(--cor-azul-apagado);
+}
+
+[data-background="verde-escuro"] {
+    --cor-background: var(--cor-verde-escuro);
+}
+
+[data-background="azure-apagado"] {
+    --cor-background: var(--cor-azure-apagado);
 }
