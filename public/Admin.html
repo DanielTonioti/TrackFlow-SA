@@ -12,14 +12,15 @@
 
 <body class="cores-background" data-background="azure-escuro-fundo">
 
-     <header>
+    <head>
+        <header>
 
-            <nav class="navbar navbar-dark cores-background" data-background="azure-claro-fundo">
+            <nav class="menu-nav navbar navbar-dark cores-background" data-background="azure-claro-fundo">
                 <!-- http://127.0.0.1:5500/public/hub.html -->
                 <div class="container-fluid">
 
-                    <a class="navbar-brand  d-flex align-items-center" href="#">
-                        <img src="../assets/logo-track-flow.png" alt="Logo TrackFlow" class="hub-icon ">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="../assets/logo/logo-track-flow.png" alt="Logo TrackFlow" class="hub-icon ">
                         <h2 class="fw-bold cores-color mb-0" data-color="white"> Trackflow </h2>
                     </a>
                     <div class="d-flex">
@@ -55,13 +56,36 @@
 
                             </div>
                         </div>
-                        <img src="../assets/user.png" alt="User Profile"
-                            class=" hub-end  hub-user cores-background rounded-circle" data-background="cinza-claro">
+
+
+                        <div class="perfil">
+                            <div class="imgCx">
+                                <img src="../assets/icons/User.png" alt="...">
+                            </div>
+                        </div>
+                        <div id="menu_user" class="cores-color menu" data-color="white">
+                            <div>
+                                <p>
+                                    <a href="#">
+                                        Perfil
+                                    </a>
+                                </p>
+                                <p class="Menu_Deslogar">
+                                    <a href="Login.html">
+                                        Deslogar
+                                    </a>
+                                </p>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </nav>
 
+
         </header>
+
+    </head>
 
     <main>
         <div class="flex justify-content-center">
@@ -78,8 +102,8 @@
                 <button id="botao-admin" class="btn text-white fw-bold" type="button">
                     <div class="d-flex align-items-center">
                         Administradores
-                        <img src="../assets/seta-para-baixo.png" alt="seta-para-baixo do admin" class="users-page-arrow"
-                            id="seta-admin">
+                        <img src="../assets/icons/seta-para-baixo.png" alt="seta-para-baixo do admin"
+                            class="users-page-arrow" id="seta-admin">
                     </div>
                 </button>
                 <div class="collapse" id="lista-adm">
@@ -179,7 +203,7 @@
         <div class="text-center cores-color p-3" data-color="white">
             <button id="botao-func" class="btn text-white fw-bold" type="button">
                 Funcionarios
-                <img src="../assets/seta-para-baixo.png" alt="seta-para-baixo do admin" class="users-page-arrow"
+                <img src="../assets/icons/seta-para-baixo.png" alt="seta-para-baixo do admin" class="users-page-arrow"
                     id="seta-func">
             </button>
             <!-- Area funcionarios -->
