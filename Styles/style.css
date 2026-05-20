@@ -102,7 +102,7 @@
 /* Sensor */
 .titulo-Sensor {
     display: block;
-
+    
 }
 
 .centralizar-botoes-sensor {
@@ -222,6 +222,10 @@
 /* Hub */
 
 
+.hub-main-sensor-management{
+    border: none;
+    margin-top: 1vh;
+}
 .hub-brand {
     display: flex;
     justify-content: start;
@@ -237,7 +241,11 @@
     width: auto;
 
 }
-
+.home-page-arrow{
+    width: 1.5vmin;
+    height: 1.5vmin;
+    margin-left: 0.1vmax;
+}
 .hub-user {
     display: flex;
     width: 2.5rem;
@@ -470,6 +478,7 @@ hr {
 
 .cursor-pointer {
     cursor: pointer;
+    user-select: none;
 }
 
 /* d-flex flex-column align-items-center justify-content-center */
@@ -485,12 +494,11 @@ hr {
 }
 
 .grid-element {
-    width: 15vmax;
+    width: 12.99vmax;
     height: 5vh;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 6px;
-    cursor: pointer;
 }
 
 
