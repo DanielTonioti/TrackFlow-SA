@@ -23,6 +23,29 @@
     --Fonte-lucinda: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.hub-brand {
+    display:flex;
+    justify-content: start;
+}
+.hub-end {
+    display:flex;
+    justify-content: end;
+}
+
+.hub-icon {
+   max-height: 3rem;
+   width: auto;
+
+}
+ 
+.hub-user {
+    cursor: pointer;
+    display:flex;
+   width: 2.5rem;
+   height: 2.5rem;
+   margin-left: 1rem;
+   justify-content:end;
+}
 
 
 /* Index */
