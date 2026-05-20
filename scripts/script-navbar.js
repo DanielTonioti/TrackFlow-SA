@@ -1,3 +1,10 @@
+const perfil = document.querySelector('.perfil');
+const menu = document.querySelector('.menu');
+
+perfil.onclick = () => {
+    menu.classList.toggle('ativo');
+}
+
 let timenav = 30;
 
 document.getElementById("hub-toggle-admin").onclick = () => {
@@ -38,4 +45,5 @@ document.getElementById("hub-toggle-sensor").onclick = () => {
             clearInterval(id001);
         }
     }, 10);
-} // Brings you to the sensors page after a small delay
+}
+
