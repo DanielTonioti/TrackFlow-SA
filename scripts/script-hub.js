@@ -129,3 +129,6 @@ function shower() {
         currentArrow.style.transform = "rotate(180deg)";
     }
 }
+document.getElementById("AddSensor").onclick = () => {
+    window.location.href = "../public/Sensor.html";
+}

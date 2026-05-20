@@ -120,7 +120,7 @@ justify-content: center;
 }
 
 
-/*Tutorial*/
+/*Navbar*/
 .menu-nav {
     position:relative;
     z-index: 10;
@@ -129,6 +129,7 @@ justify-content: center;
     padding: 30px;
     align-items: center;
     background: #ffff;
+    height:10%;
 }
 
 .menu-nav .perfil {
@@ -218,6 +219,10 @@ justify-content: center;
     font-size:1.12rem;
     color: #999;
 }
+.hub-end {
+    display: flex;
+    justify-content: end;
+}
 /* Hub */
 
 
@@ -230,10 +235,7 @@ justify-content: center;
     justify-content: start;
 }
 
-.hub-end {
-    display: flex;
-    justify-content: end;
-}
+
 
 .hub-icon {
     max-height: 3rem;
@@ -245,13 +247,7 @@ justify-content: center;
     height: 1.5vmin;
     margin-left: 0.1vmax;
 }
-.hub-user {
-    display: flex;
-    width: 2.5rem;
-    height: 2.5rem;
-    margin-left: 1rem;
-    justify-content: end;
-}
+
 
 hr {
     border: none;
@@ -461,7 +457,7 @@ hr {
 
 @font-face {
     font-family: "Pixel";
-    src: url(../Fonts/LeagueSpartan-VariableFont_wght.ttf);
+    src: url(../assets/fonts/LeagueSpartan-VariableFont_wght.ttf);
 }
 
 .class001 {
