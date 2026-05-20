@@ -162,7 +162,7 @@ justify-content: center;
     position: absolute;
     z-index: 10;
     right:0;
-    top: 90%;
+    top: 110%;
     width:10%;
     background: var(--cor-cinza-claro);
     user-select:none;
