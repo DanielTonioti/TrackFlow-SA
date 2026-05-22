@@ -1,3 +1,4 @@
+
 let contas = (("marlon@gmail.com", "1234"),
     ("susane@gmail.com", "1234"),
     ("frederico@gmail.com", "1234")
@@ -31,3 +32,4 @@ document.getElementById("form-login").addEventListener("submit", function (e) {
 }) // This will allow anyone to log-in, only checking requirements inside the input. This will be connected to the database later.
 
 // Login can be bypassed by typing window.location.href = "../public/hub.html"; in the console.
+// LOL
