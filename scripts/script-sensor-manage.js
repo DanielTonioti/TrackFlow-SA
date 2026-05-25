@@ -1,3 +1,3 @@
 document.getElementById("voltarsensor").onclick = () => {
-    window.location.href = "sensor.html";
+    window.location.href = "Sensor.html";
 }
