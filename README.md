@@ -1,6 +1,6 @@
 # TrackFlow-SA
 ---
-##Nomes dos membros
+## Nomes dos membros
 #### Samuel Elias Candinho, Roberto Stockhausen Hille, Lucas Vieira Pedroso , Daniel Tonioti e Natan Vitor Dré Avanço Barbosa
 ---
 ## Tecnologias Utilizadas:
