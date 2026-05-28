@@ -10,7 +10,6 @@ Samuel Elias Candinho, Roberto Stockhausen Hille, Lucas Vieira Pedroso , Daniel 
 ---
 ## Conceito:
 O projeto consiste em fazer um aplicativo que simula um sistema interno de uma empresa ferroviária, gerando relatórios, gerenciando usuários e administradores, além de um sistema de autenticação de funcionários em base dos estados de seus trens e administradores. Tendo a possibilidade de mostrar relatórios diários do trem ou da linha de remover e cadastrar os sensores responsáveis por monitorar e acompanhar o trajeto e situação do trem ou do trilho, entretanto, não sendo possível remover um sensor que possui dados armazenados em si.
----
 O objetivo do projeto é criar um aplicativo que consiga, de maneira automática, registrar, monitorar e relatar a atual situação dos trens e trilhos com seus respectivos sensores, no final, tendo um sistema automatizado.
 ---
 ## Funções Previstas:
