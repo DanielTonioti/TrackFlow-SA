@@ -1,11 +1,12 @@
 # TrackFlow-SA
 ---
-**Nomes dos membros**: Samuel Elias Candinho, Roberto Stockhausen Hille, Lucas Vieira Pedroso , Daniel Tonioti e Natan Vitor Dré Avanço Barbosa
+**Nomes dos membros**
+Samuel Elias Candinho, Roberto Stockhausen Hille, Lucas Vieira Pedroso , Daniel Tonioti e Natan Vitor Dré Avanço Barbosa
 ---
 ## Tecnologias Utilizadas:
 - Front-end: HTML / CSS / JavaScript
--framework: Bootstrap
--IDE: Visual Studio Code
+- Framework: Bootstrap
+- IDE: Visual Studio Code
 ---
 ## Conceito:
 O projeto consiste em fazer um aplicativo que simula um sistema interno de uma empresa ferroviária, gerando relatórios, gerenciando usuários e administradores, além de um sistema de autenticação de funcionários em base dos estados de seus trens e administradores. Tendo a possibilidade de mostrar relatórios diários do trem ou da linha de remover e cadastrar os sensores responsáveis por monitorar e acompanhar o trajeto e situação do trem ou do trilho, entretanto, não sendo possível remover um sensor que possui dados armazenados em si.
